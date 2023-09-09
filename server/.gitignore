@@ -1,0 +1,55 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore logs and error output
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore development and runtime environment files
+.env
+.env.local
+.env.*.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Ignore npm debug logs
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific files
+.idea
+.vscode
+
+# Ignore production build output
+build/
+dist/
+out/
+
+# Ignore npm package locks
+package-lock.json
+yarn.lock
+
+# Ignore editor-specific files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.vscode/
+
+# Ignore Jest snapshot directory
+__snapshots__/
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore coverage output
+coverage/
